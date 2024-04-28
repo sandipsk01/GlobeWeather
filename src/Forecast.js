@@ -30,7 +30,7 @@ function Forecast(props) {
 
   useEffect(() => {
     search("Delhi");
-  });
+  },[]);
 
   return (
     <div className="forecast">
